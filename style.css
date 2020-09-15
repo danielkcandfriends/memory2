@@ -1,0 +1,87 @@
+body{
+  background-image: url("images/wood.png");no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 4em;
+  color: White;
+  /*font-family: 'Amatic SC', cursive;*/
+  font-family: 'Bevan', cursive;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-shadow: -2px 3px #000;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Bevan', cursive;
+  font-weight: 300;
+  text-shadow: -2px 3px #000;
+  margin-bottom: 5px;
+  margin-top: -15px;
+}
+
+#board{
+  background-color: transparent;
+  width: 720px;
+  height: 530px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin: 0px auto;
+}
+
+
+.card{
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  float:right;
+  background-image: url("images/back.png");
+  background-size: 160px 160px;
+  border-radius: 10px;
+  -moz-box-shadow: -3px 3px 10px #000;
+  -webkit-box-shadow: -3px 3px 10px #000;
+   box-shadow: -3px 3px 10px #000;
+}
+
+
+.card img{
+  display: none;
+}
+
+.card.image img {
+  display: block;
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+  }
+
+.image.match {
+  width: 160px;
+  height: 160px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+
+/* <div class="cards">Black</div>  */
+/* <div class="cards front">Blue</div>  */
